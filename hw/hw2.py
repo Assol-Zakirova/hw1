@@ -19,10 +19,46 @@ class Swimmable:
 class Invisible:
     def use_ability(self):
         ability = super().use_ability()
-        return f'{ability} становится невидимым'
+        return f'{ability} становится невидимым.'
 class Duck(Flyable, Swimmable, Animal):
-    def conclusion(self):
-        return f'{self.use_ability()} '
-a = Duck('donald', 2, 90)
-print(a.conclusion())
+    pass
+
+class Bat(Flyable, Invisible, Animal):
+    pass
+class Frog(Swimmable, Animal):
+    pass
+class Phoenix(Flyable, Invisible, Animal):
+    def reborn(self):
+        return 'имеет способность возрождаться'
+class Zoo():
+    def __init__(self):
+        self.animals = []
+    def add_animal(self, animal):
+        self.animals.append(animal)
+        return self.animals
+    def show_all(self):
+        for i in self.animals:
+            print(i.info())
+
+    def perform_show(self):
+        for j in self.animals:
+            print(j.use_ability())
+
+
+a = Duck('Donald', 2, 90)
+b = Phoenix('Dimond', 100, 100)
+c = Frog('Betty', 5, 60)
+d = Bat('Kermit', 2, 50)
+zoo = Zoo()
+zoo.add_animal(a)
+zoo.add_animal(b)
+zoo.add_animal(c)
+zoo.add_animal(d)
+zoo.show_all()
+zoo.perform_show()
+print(Duck.__mro__)
+print(Phoenix.__mro__)
+print(Frog.__mro__)
+print(Bat.__mro__)
+
 
