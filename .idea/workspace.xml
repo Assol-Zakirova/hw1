@@ -33,12 +33,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.hw1.executor": "Run",
     "Python.hw2.executor": "Run",
     "Python.hw3.executor": "Run",
+    "Python.hw4.executor": "Run",
+    "Python.hw5.executor": "Run",
+    "Python.hw6.executor": "Run",
     "Python.lesson1.executor": "Run",
     "Python.lesson2.executor": "Run",
     "Python.lesson3.executor": "Run",
+    "Python.lesson4.executor": "Run",
+    "Python.lesson5.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
