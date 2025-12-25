@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f29f64-6853-4e16-9488-07bffe30e0ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/students.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +42,14 @@
     "Python.hw5.executor": "Run",
     "Python.hw6.executor": "Run",
     "Python.hw7.executor": "Run",
+    "Python.hw8.executor": "Run",
     "Python.lesson1.executor": "Run",
     "Python.lesson2.executor": "Run",
     "Python.lesson3.executor": "Run",
     "Python.lesson4.executor": "Run",
     "Python.lesson5.executor": "Run",
     "Python.lesson6.executor": "Run",
+    "Python.lesson8.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
